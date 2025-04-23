@@ -2,7 +2,7 @@
 Aluno: Gabriel Gomes Cardoso  
 RM:559597
 ### 1. Introdução
-O objetivo dessa atividade é criar uma documentação de uma api de cartas de Magic The Gathering (MTG). Simulando suas rotas e seus retornos
+O objetivo desse projeto é criar uma documentação de uma api de gerenciamentos de cartas de Magic The Gathering (MTG). Simulando suas rotas e seus retornos.
 
 ### 2. Rotas da API 
 | Método | Rota                          | Descrição                                           | Status Codes         |
@@ -40,7 +40,7 @@ O objetivo dessa atividade é criar uma documentação de uma api de cartas de M
 500 Internal Server Error: Erro inesperado no servidor (ex: exceção não tratada, falha no banco).  
 
 ### 3. DTOs e Modelos de Dados
-#####DTOs de requisição:
+##### DTOs de requisição:
 - PostDeckDTO
 ```json
 {
@@ -110,7 +110,7 @@ O objetivo dessa atividade é criar uma documentação de uma api de cartas de M
 }
 ```
 
-#####DTOs de resposta:
+##### DTOs de resposta:
 - DeckDTO
 ```json
 {
